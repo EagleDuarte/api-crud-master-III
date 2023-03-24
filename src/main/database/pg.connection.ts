@@ -4,12 +4,12 @@ export const dbConnection = new Pool({
   connectionString:
     "postgres://pomzhvfl:is7CTLIsvCqDNUdOTLd-Ask0V8BMfAiM@babar.db.elephantsql.com/pomzhvfl",
 
-  /*Another option of connection:
-    host: "dpg-cdmpa5la49944a8m36u0-a.frankfurt-postgres.render.com",
-    user: "bd_growdev_se21_user",
-    password: "k07O1A19bkx0SKWqynG48My2odW4s1TI",
-    database: "bd_growdev_se21",
-    port: 5432, */
+   /*Another option of connection:
+   host: "pomzhvfl:is7CTLIsvCqDNUdOTLd-Ask0V8BMfAiM@babar.db.elephantsql.com/pomzhvfl",
+   user: "pomzhvfl",
+   password: "is7CTLIsvCqDNUdOTLd-Ask0V8BMfAiM",
+   database: "pomzhvfl",
+   port: 5432,*/
 
   ssl: {
     rejectUnauthorized: false,
